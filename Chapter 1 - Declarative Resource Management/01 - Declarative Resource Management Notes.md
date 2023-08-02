@@ -10,10 +10,12 @@ Deploy and update applications from resource manifests that are parameterized fo
 * Deploy and update applications from resource manifests augmented by Kustomize
 
 ## Sections
+
 * Resource Manifests
 * Kustomize Overlays
 
 ## Summary
+
 * Imperative commands perform actions, such as creating a deployment, by specifying all necessary parameters as command-line arguments.
 * In the declarative workflow, you create manifests that describe resources in the YAML or JSON formats, and use commands 
 such as kubectl apply to deploy the resources to a cluster.
