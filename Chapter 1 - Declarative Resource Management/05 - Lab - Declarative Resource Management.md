@@ -10,7 +10,7 @@
 
 ## Instructions
 
-(1) Clone the v1.1.0 version of the application from the https://git.ocp4.example.com/developer/declarative-review.git URL:
+### (1) Clone the v1.1.0 version of the application from the https://git.ocp4.example.com/developer/declarative-review.git URL:
 
 ```
 $ git clone https://git.ocp4.example.com/developer/declarative-review.git --branch v1.1.0
@@ -19,7 +19,7 @@ Cloning into 'declarative-review'...
 ...output omitted...
 ```
 
-(2) Deploy the base directory of the repository to a new declarative-review project. Verify that the v1.1.0 version of the 
+### (2) Deploy the base directory of the repository to a new declarative-review project. Verify that the v1.1.0 version of the 
 application is available at http://exoplanets-declarative-review.apps.ocp4.example.com:
 
 Log in to the OpenShift cluster as the developer user with the developer password:
@@ -89,7 +89,7 @@ Open a web browser and navigate to http://exoplanets-declarative-review.apps.ocp
 The browser displays version v1.1.0 of the application.
 ```
 
-(3) Deploy the updated application and verify that the URL now displays the v1.1.1 version.
+### (3) Deploy the updated application and verify that the URL now displays the v1.1.1 version.
 
 Change to the v1.1.1 branch:
 
@@ -143,7 +143,7 @@ Open a web browser and navigate to http://exoplanets-declarative-review.apps.ocp
 The browser displays version v1.1.1 of the application.
 ```
 
-(4) Examine the overlay in the overlays/production path.
+### (4) Examine the overlay in the overlays/production path.
 
 Examine the overlays/production/kustomization.yaml file:
 
@@ -177,7 +177,7 @@ spec:
 
 This patch increases the number of replicas of the deployment, so that the production deployment can handle more users.
 
-(5) Deploy the production overlay to a new declarative-review-production project. Verify that the v1.1.1 version of the 
+### (5) Deploy the production overlay to a new declarative-review-production project. Verify that the v1.1.1 version of the 
 application is available at http://exoplanets-declarative-review-production.apps.ocp4.example.com with two replicas.
 
 Create the declarative-review-production project:
